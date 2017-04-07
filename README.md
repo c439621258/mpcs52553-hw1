@@ -15,5 +15,7 @@ SELECT AVG(movies.duration) FROM movies INNER JOIN roles ON movies.id = roles.mo
 2
 
 inventory(id, flavor_name, amount)
+
 sell(id, flavor_name, amount)
+
 order(id, flavor_name, amount)
